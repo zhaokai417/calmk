@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCALMK_LIB.a  CMakeFiles/CALMK_LIB.dir/config.cc.o CMakeFiles/CALMK_LIB.dir/log.cc.o CMakeFiles/CALMK_LIB.dir/util.cc.o
+/usr/bin/ranlib libCALMK_LIB.a

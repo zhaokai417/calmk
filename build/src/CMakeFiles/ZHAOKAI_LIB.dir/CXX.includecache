@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/log.h
+string
+-
+stdint.h
+-
+memory
+-
+list
+-
+fstream
+-
+iostream
+-
+vector
+-
+sstream
+-
+map
+-
+functional
+-
+stdarg.h
+-
+
+/home/zhaokai/study/service_study/src/log.cc
+log.h
+/home/zhaokai/study/service_study/src/log.h
+

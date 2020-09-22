@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libZHAOKAI_LIB.a"
+)

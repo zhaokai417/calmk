@@ -1,0 +1,8 @@
+/home/zhaokai/study/service_study/build/CMakeFiles/rebuild_cache.dir
+/home/zhaokai/study/service_study/build/CMakeFiles/edit_cache.dir
+/home/zhaokai/study/service_study/build/src/CMakeFiles/rebuild_cache.dir
+/home/zhaokai/study/service_study/build/src/CMakeFiles/CALMK_LIB.dir
+/home/zhaokai/study/service_study/build/src/CMakeFiles/edit_cache.dir
+/home/zhaokai/study/service_study/build/test/CMakeFiles/rebuild_cache.dir
+/home/zhaokai/study/service_study/build/test/CMakeFiles/calmk.dir
+/home/zhaokai/study/service_study/build/test/CMakeFiles/edit_cache.dir

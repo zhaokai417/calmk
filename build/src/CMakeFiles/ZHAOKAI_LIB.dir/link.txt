@@ -1,0 +1,2 @@
+/usr/bin/ar qc libZHAOKAI_LIB.a  CMakeFiles/ZHAOKAI_LIB.dir/log.cc.o
+/usr/bin/ranlib libZHAOKAI_LIB.a
