@@ -38,5 +38,5 @@ int main() {
     CALMK_LOG_INFO(l) << "signalton log info.";
 
     return 0;
-}z
+}
 

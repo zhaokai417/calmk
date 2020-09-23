@@ -4,7 +4,7 @@
  * @Author: zhaokai
  * @Date: 2020-09-04 21:52:27
  * @LastEditors: zhaokai
- * @LastEditTime: 2020-09-21 22:11:46
+ * @LastEditTime: 2020-09-23 21:23:06
  */
 
 #ifndef __SYLAR_LOG_H__
@@ -40,7 +40,7 @@
 #define CALMK_LOG_FMT_LEVEL(logger, level, fmt, ...) \
     if(logger->getLevel() <= level) \
         calmk::LogEvevtWarp(calmk::LogEvent::ptr(new calmk::LogEvent(logger, level, \
-                            __FILE__, __LINE__, 0, calmk::GetRThreadId(), calmk::GetFiberId(), \
+                            __FILE__, __LINE__, 0, calmk::GetThreadId(), calmk::GetFiberId(), \
                             time(0)))).getEvent()->format(fmt, __VA_ARGS__)
 
 #define CALMK_LOG_FMT_DEBUG(logger, fmt, ...) CALMK_LOG_FMT_LEVEL(logger, calmk::LogLevel::DEBUG, fmt, __VA_ARGS__)
