@@ -3,7 +3,7 @@ project(calmk)
 #set(CMAKE_VERBOSE_MAKEFILE ON)
 #set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function")
 
-aux_source_directory(. DIR_SRC)
+# aux_source_directory(. DIR_SRC)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 

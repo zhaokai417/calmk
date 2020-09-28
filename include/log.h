@@ -4,7 +4,7 @@
  * @Author: zhaokai
  * @Date: 2020-09-04 21:52:27
  * @LastEditors: zhaokai
- * @LastEditTime: 2020-09-23 21:23:06
+ * @LastEditTime: 2020-09-23 22:03:19
  */
 
 #ifndef __SYLAR_LOG_H__
@@ -245,7 +245,7 @@ namespace calmk {
         Logger::ptr getLogger(const std::string& name);
         
         void init();
-        Logger::ptr getRoot() const {return m_root; }
+        Logger::ptr getRoot() const { return m_root; }
     private:
         std::map<std::string, Logger::ptr> m_loggers;
         Logger::ptr m_root;

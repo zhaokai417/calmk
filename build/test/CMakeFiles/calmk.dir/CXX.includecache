@@ -11,6 +11,10 @@ memory
 -
 sstream
 -
+string
+-
+map
+-
 boost/lexical_cast.hpp
 -
 ../include/log.h
