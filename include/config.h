@@ -3,8 +3,8 @@
  * @version: 
  * @Author: zhaokai
  * @Date: 2020-09-20 19:37:12
- * @LastEditors: zhaokai
- * @LastEditTime: 2020-09-26 21:20:16
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-09-29 09:53:22
  */
 #pragma once
 
@@ -108,7 +108,7 @@ public:
         if (it == s_datas.end()) {
             return nullptr;
         }
-        return std::dynamic_pointer_cast< ConfigVar<T> >(it->second);
+        return std::dynamic_pointer_cast<ConfigVar<T> >(it->second);
     }
     
 private:
